@@ -5,10 +5,12 @@ const app = express();
 app.use(bodyParser.json());
 
 let productos = [
-    { id: 1, nombre: 'Snaks', precio: 2.5 },
-    { id: 2, nombre: 'Integral 500g', precio: 10.2 },
-    { id: 3, nombre: 'CocaCola', precio: 7.6 },
-    { id: 4, nombre: 'Leche', precio: 6.5 }
+    { id: 1, nombre: 'Snaks', precio: 2.5, image: 'https://blog.natruly.com/wp-content/uploads/2021/04/003-min.jpeg' },
+    { id: 2, nombre: 'Integral 500g', precio: 10.2, image: 'https://www.comedera.com/wp-content/uploads/2022/02/pan-de-salvado_shutterstock_49768897.jpg' },
+    { id: 3, nombre: 'CocaCola', precio: 7.6, image:'https://www.coca-cola.com/content/dam/onexp/cl/es/brands/coca-cola/General-Card-Coca-Cola-Original.jpg' },
+    { id: 4, nombre: 'Leche', precio: 6.5, image:'https://plazavea.vteximg.com.br/arquivos/ids/24844118-450-450/358217.jpg?v=638090212746770000' },
+    { id: 5, nombre: 'Pepsi', precio: 3.5, image: 'https://s3.amazonaws.com/bsalemarket/75518/product/1314032103181-1.jpg'},
+    { id: 6, nombre: 'Doritos', precio: 6.3, image: 'https://holafelix.pe/wp-content/uploads/2022/03/Doritos-23gr-Tira-X12und.jpg'}
 ];
 
 let clientes = [
